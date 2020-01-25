@@ -1,0 +1,84 @@
+<html>
+<head>
+<style>
+form{background-color:gray;margin-left:400px;margin-right:400px;border:4px solid black;margin-top:50px;}
+#tt{background-color:green;}
+#Email:valid{background-color:green;}
+#Email:invalid{background-color:red;}
+body{background-size:100%;}
+#Email:hover{padding:2px;}
+#tt:hover{padding:2px;}
+
+.square {
+width: 80px;
+height: 80px;
+margin: 30px auto;
+background-color:black;
+
+animation-name: spin;
+
+-webkit-animation-name: spin;
+-moz-animation-name: spin;
+-o-animation-name: spin;
+animation-name: spin;
+
+animation-duration: 4s;
+
+animation-timing-function: ease-in-out;
+
+animation-delay: 1s;
+
+animation-iteration-count: infinite;
+ }
+ 
+ @keyframes spin{
+    0%{
+	transform:rotate(0deg);
+      } 
+	  50%{background-color: white;
+	  }
+	  
+
+    100%{
+		transform:rotate(360deg);
+    }
+}
+</style>
+<title>Регістрація</title>
+</head>
+<body background="1.jpg">
+
+<script type="text/javascript">
+alert("Будь-ласка пройдіть регістрацію");
+</script>
+
+<h1 align="center" style="color: #fff"><a><i>Будь-ласка пройдіть регістрацію</a></i></h1>
+
+<div class="square"></div>
+
+<p align="center">
+<form action="Мій Другий Сайт.html">
+
+<input type="email" id="Email"><lable>Email</lable><br>
+<input type="password" id="tt"><lable>Login</lable><br>
+<input type="radio" name="a"><lable>Жінка</lable><br>
+<input type="radio" name="a"><lable>Чоловік</lable><br>
+<lable>Домашні тварини?</lable><br>
+<input type="checkbox">Собака<br>
+<input type="checkbox">Кіт<br>
+<input type="checkbox">Рибки<br>
+<input type="checkbox">Нічого з вище вказаного<br>
+<input type="text"><lable>Ваш вік?</lable><br>
+<input type="submit"><br>
+<input type="reset"><br>
+</form>
+</p>
+  <h1><p align="center">
+<a href="Мій Другий Сайт.html" 
+style="background:white; padding:10px; color: black; text-decoration: none; border-radius: 15px;">>Уже зареєстрований<</a></p></h1>
+
+<div class="square"></div>
+
+</p></h1>
+</body>
+</html>
